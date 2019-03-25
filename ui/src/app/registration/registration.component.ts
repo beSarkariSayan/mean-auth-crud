@@ -27,7 +27,7 @@ export class RegistrationComponent implements OnInit {
       return false;
     }
   }
-
+/*afadfadfdafdfdf*/
   doRegistration() {
     this.authService.register(this.reg).subscribe(() => {
       this.router.navigateByUrl('/profile');
